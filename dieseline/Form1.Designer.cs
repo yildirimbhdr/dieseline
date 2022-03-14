@@ -28,12 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.dsTextBox1 = new dieseline.DS_Components.DS_TextBoxs.DSTextBox();
+            this.SuspendLayout();
+            // 
+            // dsTextBox1
+            // 
+            this.dsTextBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.dsTextBox1.BorderColor = System.Drawing.Color.MediumAquamarine;
+            this.dsTextBox1.BorderSize = 2;
+            this.dsTextBox1.Location = new System.Drawing.Point(456, 102);
+            this.dsTextBox1.Margin = new System.Windows.Forms.Padding(0);
+            this.dsTextBox1.Name = "dsTextBox1";
+            this.dsTextBox1.Size = new System.Drawing.Size(200, 16);
+            this.dsTextBox1.TabIndex = 0;
+            this.dsTextBox1.UnderlineStyle = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dsTextBox1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private DS_Components.DS_TextBoxs.DSTextBox dsTextBox1;
     }
 }
